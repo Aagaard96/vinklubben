@@ -97,7 +97,7 @@ export default function Medlemmer() {
                         </CardBody>
                         <Divider />
                         <CardFooter className="gap-1 flex flex-col h-16 justify-center items-center font-semibold bg-red-950 rounded-b-md px-5 text-balance">
-                            <p className="italic text-center text-white">"{item.bonus}"</p>
+                            <p className="italic text-center text-white">&quot;{item.bonus}&quot;</p>
                         </CardFooter>
                     </Card>
                 ))}

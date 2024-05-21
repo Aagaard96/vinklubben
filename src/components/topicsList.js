@@ -26,12 +26,13 @@ export default async function TopicsList() {
     return (
         <section className="grid justify-center md:grid-cols-2 xl:grid-cols-4 gap-x-5 mt-10 px-5">
             {topics.map(t => (
-                <div key={t._id} className="p-4 w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] border border-black-300 my-7 flex flex-col max-w-2xl justify-between gap-5 items-start rounded-md mx-auto">
-                    <Image src="/members/andy.jpg" width={100} height={100} alt="test" className="" />
-                    <div className="flex">
+                <div key={t._id} className="w-[300px] h-fit lg:w-[350px] lg:h-fit border border-red-950 my-7 flex flex-col max-w-2xl justify-between rounded-md mx-auto">
+                    <Image src="/vindummy.jpg" width={100} height={100} alt="test" className="w-full rounded-lg p-4" />
+                    <div className="flex justify-between items-start bg-red-950 p-3 text-white rounded-b-md">
                         <div>
                             <h2 className="font-bold text-2xl">{t.title}</h2>
-                            <div>{t.description}</div>
+                            <p>{t.description}</p>
+                            <p>Frankrig, 2001</p>
                         </div>
                         <div className="flex gap-2">
                             <RemoveBtn id={t._id} />

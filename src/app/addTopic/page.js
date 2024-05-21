@@ -41,25 +41,25 @@ export default function AddTopic() {
     <form
       onSubmit={handleSubmit}
       className="flex flex-col gap-3 mt-8 w-1/3 p-5 mx-auto border-black border">
-      <h2>Add Topic</h2>
+      <h2>Tilføj ny flaske</h2>
       <input
         onChange={(e) => setTitle(e.target.value)}
         value={title}
-        className="border border-slate-500 rounded-md px-8 py-2"
+        className="border border-slate-500 rounded-md px-3 py-2"
         type="text"
-        placeholder="Topic Text"
+        placeholder="Vinens Navn"
       />
       <input
         onChange={(e) => setDescription(e.target.value)}
         value={description}
-        className="border border-slate-500 rounded-md px-8 py-2"
+        className="border border-slate-500 rounded-md px-3 py-2"
         type="text"
-        placeholder="Topic Description"
+        placeholder="Vintype (rød, hvid, rosé..)"
       />
       <button
         type="submit"
         className="bg-red-950 text-white py-3 px-6 w-fit mx-auto rounded-md">
-        Add Topic
+        Tilføj vin
       </button>
     </form>
   );

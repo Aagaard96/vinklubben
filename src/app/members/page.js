@@ -26,7 +26,7 @@ const members = [
         age: 28,
         preferences: "Burgogne, Pinot Noir, Syrah",
         image: "/members/anton.jpg",
-        bonus: "Det her er ik' Bourgone, for det fik jeg til frokost",
+        bonus: "Det her er ik' Bourgogne, for det fik jeg til frokost",
         alt: "Member Anton"
     },
     {

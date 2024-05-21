@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
+import Footer from "@/components/footer";
 
 
 export const metadata = {
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <NextUIProvider>
           <Navbar />
           {children}
+          <Footer/>
         </NextUIProvider>
       </body>
     </html >

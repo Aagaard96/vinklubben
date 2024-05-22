@@ -22,7 +22,7 @@ export default function Footer() {
                 <p>
                     <FcDonate className="size-8" />
                 </p>
-                <p className="flex flex-col text-center text-xs">MP-Box<span>5967-4012436</span></p>
+                <p className="flex flex-col text-center text-xs md:text-xl">MP-BOX<span>5967-4012436</span></p>
             </div>
         </section>
     );

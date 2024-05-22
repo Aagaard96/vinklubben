@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const getTopics = async () => {
     try {
-        const res = await fetch("http://localhost:3000/api/topics", {
+        const res = await fetch("https://vinklubben.netlify.app/api/topics", {
             cache: "no-store",
         })
 
